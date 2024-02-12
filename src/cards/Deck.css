@@ -1,14 +1,16 @@
 /* Style for the main container */
 .header {
   color: #3366ff; /* Text color */
-  font-size: 36px; /* Font size */
+  font-size: 30px; /* Font size */
   font-weight: bold; /* Font weight */
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .header2 {
   color: black; /* Text color */
-  font-size: 18px; /* Font size */
+  font-size: 14px; /* Font size */
   text-align: center;
 }
 
