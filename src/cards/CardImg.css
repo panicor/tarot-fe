@@ -12,7 +12,6 @@
   /* Style for the card image */
   .Card-img {
     max-width: 100%;
-    height: auto;
     height: inherit;
     margin-bottom: 10px;
   }

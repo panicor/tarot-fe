@@ -19,8 +19,8 @@ function CardImg({
   let flipStyle = flip ? { transform: "rotate(180deg)" } : {};
   return (
     <div className="Card">
-      <img className="Card-img" alt={name} src={image} style={flipStyle} />
       {flip ? <p>You drew {name} in reverse</p> : <p>You drew {name}</p>}
+      <img className="Card-img" alt={name} src={image} style={flipStyle} />
     </div>
   );
 }
